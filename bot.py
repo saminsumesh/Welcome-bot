@@ -16,8 +16,8 @@ api_hash=os.environ.get("API_HASH")
 )
 
 
-GROUP = os.environ.get("")
-WELCOME_MESSAGE = os.environ.get("")
+GROUP = os.environ.get("GROUP")
+WELCOME_MESSAGE = os.environ.get("WELCOME_MESSAGE")
 
 # ---------------------------------*--------------------------------
 # Button
