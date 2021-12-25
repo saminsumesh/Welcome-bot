@@ -1,0 +1,43 @@
+{
+    "name": "Simple Welcome Bot",
+    "description": "An Simple telegram welcome bot",
+    "keywords": [
+        "welcome",
+        "telegram",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/saminsumesh/Welcome-bot",
+    "website": "https://github.com/saminsumesh/Welcome-bot",
+    "success_url": "https://github.com/saminsumesh/Welcome-bot",
+    "env": {
+        "API_ID": {
+            "description": "Get it from my.telegram.org",
+            "required": "True"
+        },
+        "API_HASH": {
+            "description": "Get it from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Get it from @botfather",
+            "required": "True"
+        },
+        "GROUP": {
+            "description": "Give me your group id",
+            "required": "True",
+            "value": "1234567890"
+        },
+        "WELCOME_MESSAGE": {
+            "description": "Set your welcome message",
+            "required": "True",
+            "value": "Hello world"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
