@@ -21,6 +21,15 @@ WELCOME_MESSAGE = os.environ.get("")
 
 # ---------------------------------*--------------------------------
 # Button
+START_TXT = """
+HI {} , Test Run 1"""
+
+ABOUT_TXT = """
+Run again for something
+"""
+HELP_TXT = """
+Nothing here
+"""
 
 START_BUTTONS = InlineKeyboardButton(
 [[
@@ -28,6 +37,17 @@ InlineKeyboardButton("Source Code", url="https://github.com/saminsumesh/welcome-
 InlineKeyboardButton("Support", url="https://t.me/xd_botzsupport")
 ]])
 
+HELP_BUTTONS = InlineKeyboardButton(
+[[
+InlineKeyboardButton("Source Code", url="https://github.com/saminsumesh/welcome-bot"),
+InlineKeyboardButton("Support", url="https://t.me/xd_botzsupport")
+]])
+
+ABOUT_BUTTONS = InlineKeyboardButton(
+[[
+InlineKeyboardButton("Source Code", url="https://github.com/saminsumesh/welcome-bot"),
+InlineKeyboardButton("Support", url="https://t.me/xd_botzsupport")
+]])
 
 @Bot.on_message(filters.private & filters.command(["start"]))
 def start(bot, message):
