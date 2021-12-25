@@ -30,7 +30,7 @@
         "WELCOME_MESSAGE": {
             "description": "Set your welcome message",
             "required": "True",
-            "value": "Hello world"
+            "value": "Hello worlds"
         }
     },
     "stack": "heroku-20",
