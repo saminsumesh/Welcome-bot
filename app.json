@@ -23,7 +23,7 @@
             "required": "True"
         },
         "GROUP": {
-            "description": "Give me your group id",
+            "description": "Give me your group username or link",
             "required": "True",
             "value": "1234567890"
         },
