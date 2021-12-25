@@ -18,7 +18,7 @@
 * `API_ID` - Get it from my.telegram.org
 * `API_HASH` - Get it from my.telegram.org
 * `BOT_TOKEN` - Get it from @BotFather ✔
-* `GROUP` - Add your group id
+* `GROUP` - Add your group username or link
 * `WELCOME_MESSAGE` - Set your welcome message
 
 ## Credits 
