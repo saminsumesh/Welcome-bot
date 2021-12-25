@@ -8,6 +8,10 @@
 * USE WITH PROPER CREDITS 
 * ALL RIGHTS GOES TO PAULWALKER TG / SAMINSUMESH
 ```
+### Host on Heroku
+
+<p><a href="https://heroku.com/deploy?template=https://github.com/saminsumesh/Welcome-Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
+
 
 ## Vars 
 
