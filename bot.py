@@ -11,11 +11,12 @@ Bot = Client(
 "Simple Welcome Bot",
 bot_token=os.environ.get("BOT_TOKEN"),
 api_id=int(os.environ.get("API_ID")),
-api_hash=os.environ.get("API_HASH"),
-group=os.environ.get("GROUP"),
-welcome_message=os.environ.get("WELCOME_MESSAGE")
+api_hash=os.environ.get("API_HASH")
 )
 
+
+GROUP = os.environ.get("")
+WELCOME_MESSAGE = os.environ.get("")
 
 # This just an pyrogram welcome message bot that can be used in your groups.
 
