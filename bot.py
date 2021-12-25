@@ -69,7 +69,7 @@ async def help(bot, message):
 async def about(bot, message):
       await message.reply_text(
       text=ABOUT_TXT.format(message.from_user.mention),
-      reply_markup=ABOUT_BUTTON,
+      reply_markup=ABOUT_BUTTONS,
       disable_web_preview=True
      )
 # This just an pyrogram welcome message bot that can be used in your groups.
