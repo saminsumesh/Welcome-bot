@@ -25,7 +25,21 @@ START_TXT = """
 HI {} , Test Run 1"""
 
 ABOUT_TXT = """
-Run again for something
+🤖 Bot Name: Welcome Bot
+
+📝 Language : Python 3
+
+📚 Framework : Pyrogram
+
+📡 Hosted On : Heroku
+
+👨‍💻 Developer : [🇬🇧 Samin Sumesh](https://t.me/Paulwalker_tg)
+
+💡 Source Code : [Click Here](https://github.com/saminsumesh/welcome-bot)
+
+👥 Support Group : [XD Bots Support](https://t.me/xd_botzsupport)
+
+📢 Updates Channel : [XD Bots Updates](https://t.me/XD_Botz)
 """
 HELP_TXT = """
 Nothing here
@@ -70,7 +84,7 @@ async def about(bot, message):
       await message.reply_text(
       text=ABOUT_TXT.format(message.from_user.mention),
       reply_markup=ABOUT_BUTTONS,
-      disable_web_preview=True
+      disable_web_page_preview=True
      )
 # This just an pyrogram welcome message bot that can be used in your groups.
 
