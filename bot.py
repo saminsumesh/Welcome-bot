@@ -31,19 +31,19 @@ HELP_TXT = """
 Nothing here
 """
 
-START_BUTTONS = InlineKeyboardButton(
+START_BUTTONS = InlineKeyboardMarkup(
 [[
 InlineKeyboardButton("Source Code", url="https://github.com/saminsumesh/welcome-bot"),
 InlineKeyboardButton("Support", url="https://t.me/xd_botzsupport")
 ]])
 
-HELP_BUTTONS = InlineKeyboardButton(
+HELP_BUTTONS = InlineKeyboardMarkup(
 [[
 InlineKeyboardButton("Source Code", url="https://github.com/saminsumesh/welcome-bot"),
 InlineKeyboardButton("Support", url="https://t.me/xd_botzsupport")
 ]])
 
-ABOUT_BUTTONS = InlineKeyboardButton(
+ABOUT_BUTTONS = InlineKeyboardMarkup(
 [[
 InlineKeyboardButton("Source Code", url="https://github.com/saminsumesh/welcome-bot"),
 InlineKeyboardButton("Support", url="https://t.me/xd_botzsupport")
